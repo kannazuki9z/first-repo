@@ -85,19 +85,19 @@ gpgcheck = 1
 1. 其他項目對套件庫能否正常運作影響不大，如有興趣可查詢相關資料、yum.conf的man page，或者直接刪掉眼不見為淨。
 
 ```
-[rhel-7-local]
-metadata_expire = 86400
-enabled_metadata = 0
-#sslclientcert = /etc/pki/entitlement/872508134122952497.pem
-baseurl = file:///repo/rhel-7-server-rpms/
-ui_repoid_vars = releasever basearch
-#sslverify = 1
-name = Red Hat 7 Local
-#sslclientkey = /etc/pki/entitlement/872508134122952497-key.pem
-gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
-enabled = 1
-#sslcacert = /etc/rhsm/ca/redhat-uep.pem
-gpgcheck = 1
+1. [rhel-7-local]
+1. metadata_expire = 86400
+1. enabled_metadata = 0
+1. #sslclientcert = /etc/pki/entitlement/872508134122952497.pem
+1. baseurl = file:///repo/rhel-7-server-rpms/
+1. ui_repoid_vars = releasever basearch
+1. #sslverify = 1
+1. name = Red Hat 7 Local
+1. #sslclientkey = /etc/pki/entitlement/872508134122952497-key.pem
+1. gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+1. enabled = 1
+1. #sslcacert = /etc/rhsm/ca/redhat-uep.pem
+1. gpgcheck = 1
 ```
 
 ## 測試
